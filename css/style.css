@@ -170,6 +170,17 @@ hr {
 		align-items: center;
 	}
 
+	@media (min-width: 900px) {
+  .content {
+    flex-direction: row;
+  }
+
+  .content > * {
+    flex: 1; /
+  }
+}
+
+
 	.main-article {
 		width: 60%;
 		border-radius: 0.6rem;
